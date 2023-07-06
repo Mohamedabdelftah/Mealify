@@ -1,0 +1,50 @@
+@media screen and (min-width:481px) and (max-width:1024px) {
+    .MiddleContent{
+        margin:auto;
+        width: 95%;
+    }
+    nav{
+        position: relative;
+    }
+    .nav-content{
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        
+
+    }
+    nav li a{
+        padding-left: 10px;
+    }
+    .header-content{
+        flex-direction: column;
+        justify-content:space-evenly
+    }
+    .img-sec{
+        width: 60%;
+    }
+    .description-sec{
+        width: 100%;
+    }
+
+    .card{
+        width: 90%;
+        padding: 20px 0px;
+    }
+
+
+    .gallery-cards{
+        flex-direction: column;
+    }
+    .padding-card{
+        width: 100%;
+    }
+
+    .data-in-50{
+        width: 100%;
+    }
+    .sec-one , .sec-three ,.sec-two{
+        width: 100%;
+    }
+  
+}
